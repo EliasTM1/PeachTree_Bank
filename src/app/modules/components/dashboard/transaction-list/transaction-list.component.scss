@@ -1,0 +1,21 @@
+*:focus {
+    outline: none;
+}
+
+.prueba {
+    background-color: white;
+    display: flex
+}
+
+.list-transactions {
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.containerTransaction {
+    height: auto;
+    max-height: 68vh;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+    background-color: white;
+}

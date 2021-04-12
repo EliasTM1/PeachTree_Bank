@@ -1,0 +1,36 @@
+<div class="modal fade custom-modal" id="reviewTransferModal" [ngStyle]="{'display': reviewTransferModalIsOpen ? 'block' : 'none', 'opacity': 1}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><b>Review</b> Transfer</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" (click)="isOpenModal(false)"></button>
+            </div>
+            <div class="modal-body">
+                <div class="format">
+                    Are you ready to send out this transfer?
+                </div>
+                <br>
+                <div class="format bold">
+                    it will be send to account:
+                </div>
+                <br>
+                <div class="format">
+                    {{toAccount}}
+                </div>
+                <br>
+                <div class="format bold">
+                    With the ammount of:
+                </div>
+                <br>
+                <div class="format">
+                    € {{account}}
+                </div>
+                <br>
+            </div>
+            <div class="modal-footer">
+                <button id="close" type="button" class="btn btn-secondary" data-bs-dismiss="modal" (click)="isOpenModal(false)">Close</button>
+                <button id="sendTransfer" type="button" class="btn btn-primary" (click)="triggerSendTransfer()">Send Transfer</button>
+            </div>
+        </div>
+    </div>
+</div>

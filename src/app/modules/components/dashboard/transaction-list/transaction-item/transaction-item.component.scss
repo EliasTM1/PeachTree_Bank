@@ -1,0 +1,25 @@
+*:focus {
+    outline: none;
+}
+
+.verticalLine-green {
+    border-left: 5px solid green;
+    height: 80px;
+}
+
+.verticalLine-red {
+    border-left: 5px solid red;
+    height: 80px;
+}
+
+.widthdraw {
+    color: red;
+}
+
+.deposit {
+    color: green;
+}
+
+.merchant {
+    font-weight: bolder;
+}

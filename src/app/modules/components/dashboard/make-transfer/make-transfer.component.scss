@@ -1,0 +1,78 @@
+*:focus {
+    outline: none;
+}
+
+form {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 10px;
+}
+
+input {
+    margin-bottom: 25px !important;
+    margin-top: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#euroSign::before {
+    border: 1px grey solid;
+    position: absolute;
+    content: '\20AC';
+    text-align: center;
+    margin-right: 37px;
+    margin-top: 15px;
+    margin-left: 3px;
+    font-size: 24px;
+    width: 37px;
+    height: 38px;
+    background-color: #E9ECEE;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3;
+    color: #555;
+    z-index: 1;
+}
+
+#amount {
+    position: inherit;
+    width: 91%;
+    margin-left: 40px;
+    // margin-right: 37px;
+    z-index: 2px;
+}
+
+#MyAcc::placeholder {
+    font-style: normal !important;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+.panel-default {
+    margin-top: 20px;
+}
+
+.btn-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 77%;
+}
+
+.form-group>input {
+    margin-bottom: 10px;
+}

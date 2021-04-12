@@ -1,0 +1,17 @@
+/* navbar */
+
+@import "../../../../assets/styles/_vars.scss";
+.navbar-light {
+    background-color: $primary-blue !important;
+    border-color: #1886dd !important;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.icon-position {
+    margin-left: 20px;
+}
+
+.header-title {
+    padding-left: 15px;
+    color: white;
+}
